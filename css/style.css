@@ -1,0 +1,133 @@
+/*font family start*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/*font family end*/
+/*common css start*/
+body{
+    background-image: url("../images/bg.jpg");
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px ;
+    font-weight: 400;
+    color: #000000;
+}
+/*common css end*/
+header {
+  padding-top: 90px;
+  text-align: center;
+  z-index: 1; 
+    position: relative;
+}
+
+/* Title styles */
+h1 {
+  display: inline-block; /* Align title next to image */
+}
+h4{
+    margin-top: 15px;
+}
+
+.banner{
+  padding-top: 90px;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 80px);
+  /* Add this property: */
+  flex-direction: column; /* Stack elements vertically */
+   z-index: 0;
+}
+
+.content ul {
+
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.content li {
+  margin: 10px;
+}
+
+.content a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+/* General button styles */
+.btn {
+  padding: 15px 200px; 
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; 
+  width: 100%;
+}
+
+
+.btn i {
+  font-size: 20px; 
+  margin-right: 10px !important; 
+  color: white;
+}
+
+
+
+/* Individual button colors */
+.btn-facebook {
+  background-color: #3B5998;
+  color: white;
+}
+
+.btn-instagram { 
+  background-color: #E1306C;
+  color: white;
+}
+
+.btn-linkedin {
+  background-color: #0077B5;
+  color: white;
+}
+
+.btn-youtube {
+  background-color: #FF0000;
+  color: white;
+}
+
+.btn-spotify {
+  background-color: #1DB954;
+  color: white;
+}
+
+.btn-pinterest {
+  background-color:#E60023; /* Pinterest Red */
+  color: white;
+}
+
+.btn-snapchat {
+  background-color: #fffc00; /* Snapchat Yellow */
+  color: black;
+}
+
+.btn-whatsapp {
+  background-color: #25D366; /* WhatsApp Green */
+  color: white;
+}
+
+.btn-email {
+  background-color: #777;
+  color: white;
+}
+
+.btn-twitter {
+  background-color: #00aced;
+  color: white;
+}
+
+
